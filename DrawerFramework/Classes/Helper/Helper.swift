@@ -159,7 +159,7 @@ static func createDirectory(with folderName:String)
     //MARK: - Print Logs
    public static func printLogs(with value:String = " ", file: String = #file,  methodName:String = #function ,  line: Int = #line ) {
         #if DEBUG
-        NSLog("Pronounce %@ |\n %@ - %d : %@",methodName,file,line,value)
+        NSLog("Pronounce %@ \n %@ - %d : %@",file , methodName , line , value)
         #else
         #endif
     }
